@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+   background-color: rgb(0, 0, 0);
+   color: white;
+   background-image: url('imagens/foto-pizza-1.jpg');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   height: 100%;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+   padding: 15px 15px 15px 15px;
+   background-color: rgba(27, 25, 25, 0.869);
+   min-height: 150px;
+}
+
+h1 {
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-top: 16px;
+}
+
+h2 {
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: larger;
+   font-weight: lighter;
+   margin-top: 7px;
+}
+
+main {
+   background-color: rgba(70, 70, 70, 0.828);
+   width: 100%;
+   min-width: 300px;
+   max-width: 850px;
+   margin: auto;
+}
+
+form {
+   padding: 40px 40px 40px 40px;
+   text-align: center;
+}
+
+label.etiqueta {
+   display: inline-block;
+   width: 100%;
+   min-width: 300px;
+   max-width: 700px;
+   text-align: left;
+   margin-top: 15px;
+   font-size: 1.2em;
+}
+
+.resposta {
+   display: inline-block;
+   padding: 10px 10px 10px 10px;
+   width: 100%;
+   min-width: 300px;
+   max-width: 700px;
+   border-radius: 8px;
+   border: 2px solid black;
+   font-size: 1.1em;
+}
+
+ul {
+   list-style: none;
+   margin-top: 10px;
+}
+
+ul > li {
+   display: inline-block;
+   width: 100%;
+   min-width: 300px;
+   max-width: 700px;
+   margin-bottom: 3px;
+   font-size: 1.2em;
+   text-align: left;
+}
+
+.opcao {
+   margin-right: 12px;
+   margin-left: 5px;
+   transform: scale(1.5); 
+}
+
+p.comentario {
+   display: inline-block;
+   margin-top: 15px;
+   width: 100%;
+   min-width: 300px;
+   max-width: 700px;
+   text-align: left;
+   font-size: 1.2em;
+   margin-bottom: 5px;
+}
+
+textarea {
+   display: inline-block;
+   width: 100%;
+   height: 125px;
+   min-height: 125px;
+   min-width: 300px;
+   max-width: 700px;
+   font-size: 1.2em;
+   padding: 7px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   resize: vertical;
+}
+
+input#enviar {
+   display: inline-block;
+   padding: 15px 15px 15px 15px;
+   margin-top: 20px;
+   width: 100%;
+   min-width: 300px;
+   max-width: 700px;
+   border: 1px solid black;
+   font-size: 1.1em;
+}
+
+input#enviar:hover {
+   background-color: green;
+   color: white;
+   cursor: pointer;
+}
